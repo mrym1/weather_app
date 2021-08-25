@@ -1,0 +1,21 @@
+/*======================
+    404 page
+=======================*/
+body {
+    /* background: #f3f2ef; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(238, 174, 234);
+    background: radial-gradient(circle, rgb(253, 250, 253) 0%, rgb(117, 175, 252));
+  }
+
+.page_404{ 
+    font-family: 'Arvo', serif;
+}
+
+
+			 

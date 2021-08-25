@@ -1,0 +1,38 @@
+main {
+    /* background:url("../images/bg2.jpg"); */
+    background-repeat: none;
+    background-size: cover;
+    /* background: rgb(238, 174, 202); */
+    background: linear-gradient(315deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    height: 100vh;
+}
+
+
+.input-city {
+    width: 100vh;
+    background: linear-gradient(315deg, rgb(253, 234, 243) 0%, rgb(155, 135, 230) 100%);
+    /* background:url("../images/bg1.jpg"); */
+    background-repeat: none;
+    background-size: cover;
+    /* border: 1px solid rgb(80, 78, 78); */
+    box-shadow: 1px 1px 3px #3deeeb;
+}
+
+.input-city input {
+    height: 60px;
+    background: transparent;
+    background: rgb(253, 252, 253);
+    /* background: linear-gradient(315deg, rgba(211, 139, 206, 0.856) 0%, rgba(133, 114, 236, 0.836) 100%); */
+    outline: none;
+    border: 1px solid black;
+}
+
+.input-city input::placeholder {
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+
+btn{
+    background: rgb(253, 252, 253);
+    
+}
