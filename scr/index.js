@@ -7,6 +7,7 @@ const app = express();
 const request = require("request");
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
+const port = process.env.PORT || 8000;
 
 const static_path = path.join(__dirname, "../public");
 const templates_path = path.join(__dirname, "../templates");
@@ -87,6 +88,6 @@ app.post("/",(req, res) => {
 
   });
 
-app.listen(8000, () => {
-  console.log(`Server running at 8000/`);
+app.listen(port, () => {
+  console.log(`Server running at ${port}`);
 });
